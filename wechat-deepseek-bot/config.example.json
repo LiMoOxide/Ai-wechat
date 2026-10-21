@@ -1,0 +1,21 @@
+{
+  "deepseek_api_key": "sk-在这里填写你的DeepSeekAPIKey",
+  "model": "deepseek-chat",
+  "deepseek_base_url": "https://api.deepseek.com/v1/chat/completions",
+  "temperature": 0.8,
+  "character_desc": "你是运行在微信上的智能助手，由 DeepSeek 大模型驱动。回答简洁友好、说人话，中文优先；遇到不确定的事要如实说明，不要编造事实。",
+
+  "self_nickname": "",
+  "listen_list": [],
+  "group_names": [],
+  "group_keywords": ["ai", "AI", "@ai"],
+  "private_direct_reply": true,
+
+  "max_history_rounds": 8,
+  "clear_memory_commands": ["#清除记忆", "#清空记忆"],
+  "poll_interval": 1.0,
+  "reply_prefix": "",
+
+  "debug": false,
+  "verify_send": false
+}
